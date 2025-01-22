@@ -1,0 +1,26 @@
+{
+  "name": "@progwise/tanstack-keycloak-example",
+  "type": "module",
+  "scripts": {
+    "dev": "vinxi dev --port 3010 --host",
+    "build": "vinxi build",
+    "start": "vinxi start --port 3010"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.64.2",
+    "@tanstack/react-router": "^1.97.8",
+    "@tanstack/react-router-with-query": "^1.97.8",
+    "@tanstack/start": "^1.97.11",
+    "keycloak-js": "^26.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "vinxi": "^0.5.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.7",
+    "@types/react-dom": "^19.0.3",
+    "@vitejs/plugin-react": "^4.3.2",
+    "typescript": "^5.7.3",
+    "vite-tsconfig-paths": "^5.1.4"
+  }
+}
